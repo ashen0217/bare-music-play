@@ -61,7 +61,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				player: {
+					background: 'hsl(var(--player-background))',
+					card: 'hsl(var(--player-card))'
 				}
+			},
+			backgroundImage: {
+				'gradient-player': 'var(--gradient-player)',
+				'gradient-primary': 'var(--gradient-primary)'
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
